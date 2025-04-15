@@ -1,5 +1,6 @@
+package Easy;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class MoveZero {
     public static void main(String[] args) {

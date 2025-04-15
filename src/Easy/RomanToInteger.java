@@ -1,3 +1,5 @@
+package Easy;
+
 public class RomanToInteger {
     public static void main(String[] args) {
         roman roman = new roman();

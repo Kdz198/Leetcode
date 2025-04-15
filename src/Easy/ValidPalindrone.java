@@ -1,3 +1,5 @@
+package Easy;
+
 public class ValidPalindrone {
     public static void main(String[] args) {
 

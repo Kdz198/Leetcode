@@ -1,3 +1,5 @@
+package Easy;
+
 public class ClimbingStair {
     public static void main(String[] args) {
 

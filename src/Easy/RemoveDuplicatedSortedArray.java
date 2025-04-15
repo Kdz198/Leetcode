@@ -1,4 +1,5 @@
-import java.util.HashMap;
+package Easy;
+
 import java.util.TreeMap;
 
 public class RemoveDuplicatedSortedArray {
