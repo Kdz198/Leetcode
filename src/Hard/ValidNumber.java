@@ -4,7 +4,7 @@ public class ValidNumber {
     public static void main(String[] args) {
 
         validNumber123 v = new validNumber123();
-        System.out.println(  v.isNumber(".1"));
+        System.out.println(v.isNumber(".1"));
 
     }
 }
@@ -12,26 +12,21 @@ public class ValidNumber {
 class validNumber123 {
     public boolean isNumber(String s) {
 
-        if (s.equals("Infinity")|| s.equals("-Infinity")||s.equals("NaN")|| s.equals("+Infinity"))
+        if (s.equals("Infinity") || s.equals("-Infinity") || s.equals("NaN") || s.equals("+Infinity"))
             return false;
 
-        if (s.endsWith("f")||s.endsWith("F")||s.endsWith("D")||s.endsWith("d"))
+        if (s.endsWith("f") || s.endsWith("F") || s.endsWith("D") || s.endsWith("d"))
             return false;
 
-        try
-        {
+        try {
             Integer.parseInt(s);
             return true;
-        }
-        catch (NumberFormatException e)
-        {
+        } catch (NumberFormatException e) {
 
-            try{
+            try {
                 double d = Double.parseDouble(s);
                 return true;
-            }
-            catch (NumberFormatException e1)
-            {
+            } catch (NumberFormatException e1) {
                 return false;
             }
         }
