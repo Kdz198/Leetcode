@@ -7,12 +7,12 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 ## 📊 Statistics
 
 | Difficulty | Number of Problems | 
-|------------|---------------------|
-| Easy       | 25                  | 
-| Medium     | 9                   | 
-| Hard       | 2                   | 
+|------------|--------------------|
+| Easy       | 25                 | 
+| Medium     | 10                 | 
+| Hard       | 2                  | 
 
-Total Problems Solved: **36**
+Total Problems Solved: **37**
 
 ---
 
@@ -50,17 +50,18 @@ Total Problems Solved: **36**
 
 ## Medium Problems
 
-| Problem Name                        | Code                                                                                  |
-|-------------------------------------|---------------------------------------------------------------------------------------|
-| Divide Two Integers                 | [DivideTwoInteger.java](src/Medium/DivideTwoInteger.java)                             |
-| Find First and Last Position        | [FindFirstAndLastPosition.java](src/Medium/FindFirstAndLastPosition.java)             |
-| Longest Consecutive Sequence        | [LongestConsecutiveSequence.java](src/Medium/LongestConsecutiveSequence.java)         |
+| Problem Name                                   | Code                                                                          |
+|------------------------------------------------|-------------------------------------------------------------------------------|
+| Divide Two Integers                            | [DivideTwoInteger.java](src/Medium/DivideTwoInteger.java)                     |
+| Find First and Last Position                   | [FindFirstAndLastPosition.java](src/Medium/FindFirstAndLastPosition.java)     |
+| Longest Consecutive Sequence                   | [LongestConsecutiveSequence.java](src/Medium/LongestConsecutiveSequence.java) |
 | Longest Substring Without Repeating Characters | [LongestSubstring.java](src/Medium/LongestSubstring.java)                     |
-| Multiply Strings                    | [MultiplyString.java](src/Medium/MultiplyString.java)                                 |
-| Pow(x, n)                           | [PowXn.java](src/Medium/PowXn.java)                                                   |
-| Reverse Integer                     | [ReverseInteger.java](src/Medium/ReverseInteger.java)                                 |
-| Single Number II                    | [SingleNumberII.java](src/Medium/SingleNumberII.java)                                 |
-| String to Integer (atoi)            | [StringToInteger.java](src/Medium/StringToInteger.java)                               |
+| Multiply Strings                               | [MultiplyString.java](src/Medium/MultiplyString.java)                         |
+| Pow(x, n)                                      | [PowXn.java](src/Medium/PowXn.java)                                           |
+| Reverse Integer                                | [ReverseInteger.java](src/Medium/ReverseInteger.java)                         |
+| Single Number II                               | [SingleNumberII.java](src/Medium/SingleNumberII.java)                         |
+| String to Integer (atoi)                       | [StringToInteger.java](src/Medium/StringToInteger.java)                       |
+| Reverse Words In A String                      | [ReverseWordsInAString.java](src/Medium/ReverseWordsInAString.java)                 |
 
 ---
 
