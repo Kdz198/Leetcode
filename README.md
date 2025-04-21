@@ -9,10 +9,10 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 | Difficulty | Number of Problems | 
 |------------|--------------------|
 | Easy       | 25                 | 
-| Medium     | 10                 | 
+| Medium     | 11                 | 
 | Hard       | 2                  | 
 
-Total Problems Solved: **37**
+Total Problems Solved: **38**
 
 ---
 
@@ -61,8 +61,8 @@ Total Problems Solved: **37**
 | Reverse Integer                                | [ReverseInteger.java](src/Medium/ReverseInteger.java)                         |
 | Single Number II                               | [SingleNumberII.java](src/Medium/SingleNumberII.java)                         |
 | String to Integer (atoi)                       | [StringToInteger.java](src/Medium/StringToInteger.java)                       |
-| Reverse Words In A String                      | [ReverseWordsInAString.java](src/Medium/ReverseWordsInAString.java)                 |
-
+| Reverse Words In A String                      | [ReverseWordsInAString.java](src/Medium/ReverseWordsInAString.java)           |
+| Count Primes                                   | [CountPrime.java](src/Medium/CountPrime.java)                                 |
 ---
 
 ## Hard Problems
