@@ -8,44 +8,44 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 25                 | 
+| Easy       | 26                 | 
 | Medium     | 11                 | 
 | Hard       | 2                  | 
 
-Total Problems Solved: **38**
+Total Problems Solved: **39**
 
 ---
 
 ## Easy Problems
 
-| Problem Name                 | Code                                                                                  |
-|------------------------------|---------------------------------------------------------------------------------------|
-| Add Digits                   | [AddDigits.java](src/Easy/AddDigits.java)                                             |
-| Best Time to Buy and Sell Stock | [BuyAndSellStock.java](src/Easy/BuyAndSellStock.java)                               |
-| Climbing Stairs              | [ClimbingStair.java](src/Easy/ClimbingStair.java)                                     |
-| Contains Duplicate           | [ContainsDuplicate.java](src/Easy/ContainsDuplicate.java)                             |
-| Contains Duplicate II        | [ContainsDuplicateII.java](src/Easy/ContainsDuplicateII.java)                         |
-| Index of First Occurrence    | [IndexOfFirstOccurence.java](src/Easy/IndexOfFirstOccurence.java)                     |
-| Length of Last Word          | [LengthOfLastWord.java](src/Easy/LengthOfLastWord.java)                               |
-| Majority Element             | [MajorityNumber.java](src/Easy/MajorityNumber.java)                                   |
-| Missing Number               | [MissingNumber.java](src/Easy/MissingNumber.java)                                     |
-| Move Zeroes                  | [MoveZero.java](src/Easy/MoveZero.java)                                               |
-| Palindrome Number            | [PalindroneNumber.java](src/Easy/PalindroneNumber.java)                               |
-| Plus One                     | [PlusOne.java](src/Easy/PlusOne.java)                                                 |
-| Power of Four                | [PowerOfFour.java](src/Easy/PowerOfFour.java)                                         |
-| Power of Three               | [PowerOfThree.java](src/Easy/PowerOfThree.java)                                       |
-| Power of Two                 | [PowerOfTwo.java](src/Easy/PowerOfTwo.java)                                           |
-| Remove Duplicates from Sorted Array | [RemoveDuplicatedSortedArray.java](src/Easy/RemoveDuplicatedSortedArray.java)   |
-| Remove Element               | [RemoveElement.java](src/Easy/RemoveElement.java)                                     |
-| Reverse String               | [ReverseString.java](src/Easy/ReverseString.java)                                     |
-| Roman to Integer             | [RomanToInteger.java](src/Easy/RomanToInteger.java)                                   |
-| Search Insert Position       | [SearchInsertPosition.java](src/Easy/SearchInsertPosition.java)                       |
-| Single Number                | [SingleNumber.java](src/Easy/SingleNumber.java)                                       |
-| Sqrt(x)                      | [SqrtX.java](src/Easy/SqrtX.java)                                                     |
-| Two Sum                      | [TwoSum.java](src/Easy/TwoSum.java)                                                   |
-| Valid Anagram                | [ValidAnagram.java](src/Easy/ValidAnagram.java)                                       |
-| Valid Palindrome             | [ValidPalindrone.java](src/Easy/ValidPalindrone.java)                                 |
-
+| Problem Name                        | Code                                                                          |
+|-------------------------------------|-------------------------------------------------------------------------------|
+| Add Digits                          | [AddDigits.java](src/Easy/AddDigits.java)                                     |
+| Best Time to Buy and Sell Stock     | [BuyAndSellStock.java](src/Easy/BuyAndSellStock.java)                         |
+| Climbing Stairs                     | [ClimbingStair.java](src/Easy/ClimbingStair.java)                             |
+| Contains Duplicate                  | [ContainsDuplicate.java](src/Easy/ContainsDuplicate.java)                     |
+| Contains Duplicate II               | [ContainsDuplicateII.java](src/Easy/ContainsDuplicateII.java)                 |
+| Index of First Occurrence           | [IndexOfFirstOccurence.java](src/Easy/IndexOfFirstOccurence.java)             |
+| Length of Last Word                 | [LengthOfLastWord.java](src/Easy/LengthOfLastWord.java)                       |
+| Majority Element                    | [MajorityNumber.java](src/Easy/MajorityNumber.java)                           |
+| Missing Number                      | [MissingNumber.java](src/Easy/MissingNumber.java)                             |
+| Move Zeroes                         | [MoveZero.java](src/Easy/MoveZero.java)                                       |
+| Palindrome Number                   | [PalindroneNumber.java](src/Easy/PalindroneNumber.java)                       |
+| Plus One                            | [PlusOne.java](src/Easy/PlusOne.java)                                         |
+| Power of Four                       | [PowerOfFour.java](src/Easy/PowerOfFour.java)                                 |
+| Power of Three                      | [PowerOfThree.java](src/Easy/PowerOfThree.java)                               |
+| Power of Two                        | [PowerOfTwo.java](src/Easy/PowerOfTwo.java)                                   |
+| Remove Duplicates from Sorted Array | [RemoveDuplicatedSortedArray.java](src/Easy/RemoveDuplicatedSortedArray.java) |
+| Remove Element                      | [RemoveElement.java](src/Easy/RemoveElement.java)                             |
+| Reverse String                      | [ReverseString.java](src/Easy/ReverseString.java)                             |
+| Roman to Integer                    | [RomanToInteger.java](src/Easy/RomanToInteger.java)                           |
+| Search Insert Position              | [SearchInsertPosition.java](src/Easy/SearchInsertPosition.java)               |
+| Single Number                       | [SingleNumber.java](src/Easy/SingleNumber.java)                               |
+| Sqrt(x)                             | [SqrtX.java](src/Easy/SqrtX.java)                                             |
+| Two Sum                             | [TwoSum.java](src/Easy/TwoSum.java)                                           |
+| Valid Anagram                       | [ValidAnagram.java](src/Easy/ValidAnagram.java)                               |
+| Valid Palindrome                    | [ValidPalindrone.java](src/Easy/ValidPalindrone.java)                         |
+| Ugly Number                         | [UglyNumber.java](src/Easy/UglyNumber.java)                                   |
 ---
 
 ## Medium Problems
