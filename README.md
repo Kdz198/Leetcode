@@ -64,6 +64,7 @@ Total Problems Solved: **40**
 | Reverse Words In A String                      | [ReverseWordsInAString.java](src/Medium/ReverseWordsInAString.java)           |
 | Count Primes                                   | [CountPrime.java](src/Medium/CountPrime.java)                                 |
 | Ugly Number II                                 | [UglyNumberII.java](src/Medium/UglyNumberII.java)                             |
+| Find The Duplicate Number                      | [FindTheDuplicateNumber.java](src/Medium/FindTheDuplicateNumber.java)         |
 ---
 
 ## Hard Problems
