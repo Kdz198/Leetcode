@@ -9,10 +9,10 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 | Difficulty | Number of Problems | 
 |------------|--------------------|
 | Easy       | 26                 | 
-| Medium     | 12                 | 
+| Medium     | 13                 | 
 | Hard       | 2                  | 
 
-Total Problems Solved: **40**
+Total Problems Solved: **41**
 
 ---
 
