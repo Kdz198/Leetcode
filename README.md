@@ -65,6 +65,7 @@ Total Problems Solved: **40**
 | Count Primes                                   | [CountPrime.java](src/Medium/CountPrime.java)                                 |
 | Ugly Number II                                 | [UglyNumberII.java](src/Medium/UglyNumberII.java)                             |
 | Find The Duplicate Number                      | [FindTheDuplicateNumber.java](src/Medium/FindTheDuplicateNumber.java)         |
+| Increasing Triplet Subsequence                 | [IncreasingTripletSubsequence.java](src/Medium/IncreasingTripletSubsequence.java)         |
 ---
 
 ## Hard Problems
