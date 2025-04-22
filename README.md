@@ -7,12 +7,12 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 ## 📊 Statistics
 
 | Difficulty | Number of Problems | 
-|------------|--------------------|
-| Easy       | 30                 | 
-| Medium     | 14                 | 
-| Hard       | 2                  | 
+|------------|-------------------|
+| Easy       | 30                | 
+| Medium     | 15                | 
+| Hard       | 2                 | 
         
-Total Problems Solved: **46**
+Total Problems Solved: **47**
 
 ---
 
@@ -72,6 +72,8 @@ Total Problems Solved: **46**
 | Find The Duplicate Number                      | [FindTheDuplicateNumber.java](src/Medium/FindTheDuplicateNumber.java)         |
 | Increasing Triplet Subsequence                 | [IncreasingTripletSubsequence.java](src/Medium/IncreasingTripletSubsequence.java)         |
 | Top K Frequent Elements                        | [TopKFrequentElements.java](src/Medium/TopKFrequentElements.java)         |
+| Sum Of Two Integer                             | [SumOfTwoInteger.java](src/Medium/SumOfTwoInteger.java)         |
+
 ---
 
 ## Hard Problems
