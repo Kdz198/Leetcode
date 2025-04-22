@@ -9,10 +9,10 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 | Difficulty | Number of Problems | 
 |------------|--------------------|
 | Easy       | 27                 | 
-| Medium     | 13                 | 
+| Medium     | 14                 | 
 | Hard       | 2                  | 
 
-Total Problems Solved: **42**
+Total Problems Solved: **43**
 
 ---
 
@@ -67,6 +67,7 @@ Total Problems Solved: **42**
 | Ugly Number II                                 | [UglyNumberII.java](src/Medium/UglyNumberII.java)                             |
 | Find The Duplicate Number                      | [FindTheDuplicateNumber.java](src/Medium/FindTheDuplicateNumber.java)         |
 | Increasing Triplet Subsequence                 | [IncreasingTripletSubsequence.java](src/Medium/IncreasingTripletSubsequence.java)         |
+| Top K Frequent Elements                        | [TopKFrequentElements.java](src/Medium/TopKFrequentElements.java)         |
 ---
 
 ## Hard Problems
