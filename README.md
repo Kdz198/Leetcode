@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 28                 | 
+| Easy       | 29                 | 
 | Medium     | 14                 | 
 | Hard       | 2                  | 
-
-Total Problems Solved: **44**
+        
+Total Problems Solved: **45**
 
 ---
 
@@ -46,8 +46,9 @@ Total Problems Solved: **44**
 | Valid Anagram                       | [ValidAnagram.java](src/Easy/ValidAnagram.java)                               |
 | Valid Palindrome                    | [ValidPalindrone.java](src/Easy/ValidPalindrone.java)                         |
 | Ugly Number                         | [UglyNumber.java](src/Easy/UglyNumber.java)                                   |
-| Reverse Vowels Of A String          | [ReverseVowelsOfAString .java](src/Easy/ReverseVowelsOfAString.java)          |
-| Intersection Of Two Arrays          | [IntersectionOfTwoArrays .java](src/Easy/IntersectionOfTwoArrays.java)        |
+| Reverse Vowels Of A String          | [ReverseVowelsOfAString.java](src/Easy/ReverseVowelsOfAString.java)           |
+| Intersection Of Two Arrays          | [IntersectionOfTwoArrays.java](src/Easy/IntersectionOfTwoArrays.java)         |
+| Intersection Of Two Arrays II       | [IntersectionOfTwoArraysII.java](src/Easy/IntersectionOfTwoArraysII.java)     |
 ---
 
 ## Medium Problems
