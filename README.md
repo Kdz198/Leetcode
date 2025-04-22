@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 29                 | 
+| Easy       | 30                 | 
 | Medium     | 14                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **45**
+Total Problems Solved: **46**
 
 ---
 
@@ -49,6 +49,8 @@ Total Problems Solved: **45**
 | Reverse Vowels Of A String          | [ReverseVowelsOfAString.java](src/Easy/ReverseVowelsOfAString.java)           |
 | Intersection Of Two Arrays          | [IntersectionOfTwoArrays.java](src/Easy/IntersectionOfTwoArrays.java)         |
 | Intersection Of Two Arrays II       | [IntersectionOfTwoArraysII.java](src/Easy/IntersectionOfTwoArraysII.java)     |
+| Valid Perfect Square                | [ValidPerfectSquare.java](src/Easy/ValidPerfectSquare.java)                   |
+
 ---
 
 ## Medium Problems
