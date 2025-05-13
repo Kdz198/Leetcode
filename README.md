@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 36                 | 
+| Easy       | 37                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **53**
+Total Problems Solved: **54**
 
 ---
 
@@ -56,6 +56,7 @@ Total Problems Solved: **53**
 | Longest Palindrone                  | [LongestPalindrone.java](src/Easy/LongestPalindrone.java)                         |
 | Third Maximum Number                | [ThirdMaximumNumber.java](src/Easy/ThirdMaximumNumber.java)                       |
 | Add Strings                         | [AddStrings.java](src/Easy/AddStrings.java)                                       |
+| Number of Segments in a String                         | [NumberOfSegmentsInAString.java](src/Easy/NumberOfSegmentsInAString.java)         |
 ---
 
 ## Medium Problems
