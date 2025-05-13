@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 38                 | 
+| Easy       | 39                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **55**
+Total Problems Solved: **56**
 
 ---
 
@@ -58,6 +58,7 @@ Total Problems Solved: **55**
 | Add Strings                              | [AddStrings.java](src/Easy/AddStrings.java)                                       |
 | Number of Segments in a String           | [NumberOfSegmentsInAString.java](src/Easy/NumberOfSegmentsInAString.java)         |
 | Find All Numbers Disappeared In An Array | [FindAllNumbersDisappearedInAnArray.java](src/Easy/FindAllNumbersDisappearedInAnArray.java)         |
+| Max Consecutive Ones                     | [MaxConsecutiveOnes.java](src/Easy/MaxConsecutiveOnes.java)         |
 ---
 
 ## Medium Problems
