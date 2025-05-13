@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 40                 | 
+| Easy       | 41                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **57**
+Total Problems Solved: **58**
 
 ---
 
@@ -60,6 +60,8 @@ Total Problems Solved: **57**
 | Find All Numbers Disappeared In An Array | [FindAllNumbersDisappearedInAnArray.java](src/Easy/FindAllNumbersDisappearedInAnArray.java)      |
 | Max Consecutive Ones                     | [MaxConsecutiveOnes.java](src/Easy/MaxConsecutiveOnes.java)      |
 | Detect Capital                           | [DetectCapital .java](src/Easy/DetectCapital.java)         |
+| Reverse Words In A String III            | [ReverseWordsInAStringIII .java](src/Easy/ReverseWordsInAStringIII.java)         |
+
 ---
 
 ## Medium Problems
