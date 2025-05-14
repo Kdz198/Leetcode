@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 42                 | 
+| Easy       | 43                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **59**
+Total Problems Solved: **60**
 
 ---
 
@@ -62,6 +62,7 @@ Total Problems Solved: **59**
 | Detect Capital                           | [DetectCapital .java](src/Easy/DetectCapital.java)                                          |
 | Reverse Words In A String III            | [ReverseWordsInAStringIII .java](src/Easy/ReverseWordsInAStringIII.java)                    |
 | Maximum Product Of Three Numbers         | [MaximumProductOfThreeNumbers.java](src/Easy/MaximumProductOfThreeNumbers.java)             |
+| Maximum Average Subarray I               | [MaximumAverageSubarrayI.java](src/Easy/MaximumAverageSubarrayI.java)             |
 ---
 
 ## Medium Problems
