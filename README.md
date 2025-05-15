@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 45                 | 
+| Easy       | 46                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **62**
+Total Problems Solved: **63**
 
 ---
 
@@ -65,6 +65,7 @@ Total Problems Solved: **62**
 | Maximum Average Subarray I               | [MaximumAverageSubarrayI.java](src/Easy/MaximumAverageSubarrayI.java)         |
 | Set Mismatch                             | [SetMismatch.java](src/Easy/SetMismatch.java)             |
 | Valid Palindrome II                      | [ValidPalindromeII.java](src/Easy/ValidPalindromeII.java)             |
+| To Lower Case                            | [ToLowerCase.java](src/Easy/ToLowerCase.java)             |
 
 
 ---
