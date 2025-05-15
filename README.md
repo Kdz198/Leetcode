@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 47                 | 
+| Easy       | 48                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **64**
+Total Problems Solved: **65**
 
 ---
 
@@ -67,6 +67,7 @@ Total Problems Solved: **64**
 | Valid Palindrome II                      | [ValidPalindromeII.java](src/Easy/ValidPalindromeII.java)             |
 | To Lower Case                            | [ToLowerCase.java](src/Easy/ToLowerCase.java)             |
 | Self Dividing Numbers                    | [SelfDividingNumbers.java](src/Easy/SelfDividingNumbers.java)             |
+| Smallest Letter Greater Than Target      | [SmallestLetterGreaterThanTarget.java](src/Easy/SmallestLetterGreaterThanTarget.java)             |
 
 
 ---
