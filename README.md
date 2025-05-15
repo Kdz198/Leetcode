@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 46                 | 
+| Easy       | 47                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **63**
+Total Problems Solved: **64**
 
 ---
 
