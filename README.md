@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 48                 | 
+| Easy       | 49                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **65**
+Total Problems Solved: **66**
 
 ---
 
@@ -68,6 +68,7 @@ Total Problems Solved: **65**
 | To Lower Case                            | [ToLowerCase.java](src/Easy/ToLowerCase.java)             |
 | Self Dividing Numbers                    | [SelfDividingNumbers.java](src/Easy/SelfDividingNumbers.java)             |
 | Smallest Letter Greater Than Target      | [SmallestLetterGreaterThanTarget.java](src/Easy/SmallestLetterGreaterThanTarget.java)             |
+| Largest Number At Least Twice of Others  | [LargestNumberAtLeastTwiceofOthers.java](src/Easy/LargestNumberAtLeastTwiceofOthers.java)             |
 
 
 ---
