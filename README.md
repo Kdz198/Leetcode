@@ -8,11 +8,11 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 
 | Difficulty | Number of Problems | 
 |------------|--------------------|
-| Easy       | 51                 | 
+| Easy       | 52                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
         
-Total Problems Solved: **68**
+Total Problems Solved: **69**
 
 ---
 
@@ -70,7 +70,9 @@ Total Problems Solved: **68**
 | Smallest Letter Greater Than Target      | [SmallestLetterGreaterThanTarget.java](src/Easy/SmallestLetterGreaterThanTarget.java)       |
 | Largest Number At Least Twice of Others  | [LargestNumberAtLeastTwiceofOthers.java](src/Easy/LargestNumberAtLeastTwiceofOthers.java)   |
 | Relative Rank                            | [RelativeRank.java](src/Easy/RelativeRank.java)                                             |
-| Happy Number                             | [HappyNumber.java](src/Easy/HappyNumber.java)                                              |
+| Happy Number                             | [HappyNumber.java](src/Easy/HappyNumber.java)                                               |
+| Ransom Note                              | [RansomNote.java](src/Easy/RansomNote.java)                                                |
+
 
 
 
