@@ -72,6 +72,7 @@ Total Problems Solved: **69**
 | Relative Rank                            | [RelativeRank.java](src/Easy/RelativeRank.java)                                             |
 | Happy Number                             | [HappyNumber.java](src/Easy/HappyNumber.java)                                               |
 | Ransom Note                              | [RansomNote.java](src/Easy/RansomNote.java)                                                |
+| Minimum Common Value                     | [MinimumCommonValue.java](src/Easy/MinimumCommonValue.java)                                                |
 
 
 
