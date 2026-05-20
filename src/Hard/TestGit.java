@@ -1,5 +1,5 @@
 package Hard;
 
 public class TestGit {
-    int a =1982;
+    int a =192;
 }
