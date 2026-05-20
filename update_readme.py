@@ -1,14 +1,11 @@
 import os
 import re
 
-def clean_problem_name(filename):
-    # Xóa đuôi .java
-    name = filename.replace('.java', '')
-    # Tự động thêm khoảng trắng giữa các từ viết hoa (CamelCase -> Clean Words)
-    # Ví dụ: TwoSum -> Two Sum, FindFirstAndLastPosition -> Find First And Last Position
-    cleaned = re.sub(r'(?<!^)(?=[A-Z])', ' ', name)
 
-    # Một số trường hợp đặc biệt có thể tối ưu thủ công nếu muốn
+def clean_problem_name(filename):
+    name = filename.replace(".java", "")
+    cleaned = re.sub(r"(?<!^)(?=[A-Z])", " ", name)
+
     special_cases = {
         "Buy And Sell Stock": "Best Time to Buy and Sell Stock",
         "Index Of First Occurence": "Index of First Occurrence",
@@ -21,81 +18,119 @@ def clean_problem_name(filename):
         "Maximum Product Of Three Numbers": "Maximum Product Of Three Numbers",
         "Largest Number At Least Twice of Others": "Largest Number At Least Twice of Others",
         "Pow Xn": "Pow(x, n)",
-        "Sqrt X": "Sqrt(x)"
+        "Sqrt X": "Sqrt(x)",
     }
     return special_cases.get(cleaned, cleaned)
+
+
+def count_java_files(folder_path):
+    if not os.path.exists(folder_path):
+        return 0
+    return len([f for f in os.listdir(folder_path) if f.endswith(".java")])
+
 
 def generate_markdown_table(folder_path):
     if not os.path.exists(folder_path):
         return ""
 
-    # Lấy danh sách các file .java và sắp xếp theo thứ tự alphabet
-    files = sorted([f for f in os.listdir(folder_path) if f.endswith('.java')])
+    files = sorted([f for f in os.listdir(folder_path) if f.endswith(".java")])
 
     if not files:
-        return "| Problem Name | Code |\n|---|---|\n"
+        return "*No problems solved in this category yet.*\n"
 
-    table_lines = [
-        "| Problem Name | Code |",
-        "|---|---|"
-    ]
-
+    rows = ["| Problem Name | Code |", "|---|---|"]
     for file in files:
         prob_name = clean_problem_name(file)
-        # Tạo đường dẫn tương đối đúng chuẩn Markdown (dùng dấu / thay vì \\ trên Windows)
-        relative_path = f"{folder_path}/{file}".replace("\\", "/")
-        table_lines.append(f"| {prob_name} | [{file}]({relative_path}) |")
+        path = f"{folder_path}/{file}".replace("\\", "/")
+        rows.append(f"| {prob_name} | [{file}]({path}) |")
 
-    return "\n".join(table_lines) + "\n"
+    return "\n".join(rows) + "\n"
+
 
 def update_readme():
-    readme_path = "README.md"
-    if not os.path.exists(readme_path):
-        print("Không tìm thấy file README.md!")
-        return
-
-    # Quét các thư mục bài tập
-    easy_table = generate_markdown_table("src/Easy")
+    easy_table  = generate_markdown_table("src/Easy")
     medium_table = generate_markdown_table("src/Medium")
-    hard_table = generate_markdown_table("src/Hard")
+    hard_table  = generate_markdown_table("src/Hard")
 
-    # Đếm số lượng bài
-    easy_count = len([f for f in os.listdir("src/Easy") if f.endswith('.java')]) if os.path.exists("src/Easy") else 0
-    medium_count = len([f for f in os.listdir("src/Medium") if f.endswith('.java')]) if os.path.exists("src/Medium") else 0
-    hard_count = len([f for f in os.listdir("src/Hard") if f.endswith('.java')]) if os.path.exists("src/Hard") else 0
-    total_count = easy_count + medium_count + hard_count
+    easy_count   = count_java_files("src/Easy")
+    medium_count = count_java_files("src/Medium")
+    hard_count   = count_java_files("src/Hard")
+    total_count  = easy_count + medium_count + hard_count
 
-    # Tạo bảng thống kê mới
-    stats_table = f"""| Difficulty | Number of Problems |
-|------------|--------------------|
-| Easy       | {easy_count}                 |
-| Medium     | {medium_count}                 |
-| Hard       | {hard_count}                 |
+    # Build README sections separately to avoid f-string / markdown conflicts
+    header = "# Leetcode Solutions 🏆"
 
-Total Problems Solved: **{total_count}**"""
+    intro = (
+        "Welcome to my Leetcode solutions repository! "
+        "This is where I document my journey through solving algorithmic challenges on Leetcode. "
+        "All solutions are implemented in **Java**."
+    )
 
-    # Đọc nội dung README hiện tại
-    with open(readme_path, "r", encoding="utf-8") as f:
-        content = f.read()
+    stats_table = "\n".join([
+        "## 📊 Statistics",
+        "",
+        "| Difficulty | Number of Problems |",
+        "|------------|--------------------|",
+        f"| Easy       | {easy_count}       |",
+        f"| Medium     | {medium_count}     |",
+        f"| Hard       | {hard_count}       |",
+        "",
+        f"Total Problems Solved: **{total_count}**",
+    ])
 
-    # Hàm helper để thay thế nội dung giữa các cặp thẻ bằng regex
-    def replace_section(full_text, marker_name, new_content):
-        pattern = rf"(<!-- {marker_name}:START -->)[\s\S]*?(<!-- {marker_name}:END -->)"
-        # Đảm bảo giữ lại các tag comment cố định ở hai đầu
-        replacement = rf"\1\n{new_content}\n\2"
-        return re.sub(pattern, replacement, full_text)
+    how_to_use = "\n".join([
+        "## 📌 How to Use",
+        "",
+        "1. Clone the repository:",
+        "",
+        "```bash",
+        "git clone https://github.com/Kdz198/Leetcode.git",
+        "```",
+        "",
+        "2. Navigate to the respective folder (`src/Easy`, `src/Medium`, `src/Hard`) "
+        "to view the solution for a specific problem.",
+        "3. Compile and run the Java files to test the solutions.",
+    ])
 
-    # Cập nhật từng section một
-    content = replace_section(content, "STATS", stats_table)
-    content = replace_section(content, "EASY", easy_table)
-    content = replace_section(content, "MEDIUM", medium_table)
-    content = replace_section(content, "HARD", hard_table)
+    contributing = "\n".join([
+        "## 💡 Contributing",
+        "",
+        "Contributions are welcome! "
+        "If you have a more optimal solution or find any issues, "
+        "feel free to open a pull request or an issue.",
+    ])
 
-    # Ghi ngược lại vào file README.md
-    with open(readme_path, "w", encoding="utf-8") as f:
+    copyright_section = "## 📜 Copyright\n\nCopyright © 2026 [Kdz198]."
+
+    sections = [
+        header,
+        intro,
+        "---",
+        stats_table,
+        "---",
+        "## Easy Problems",
+        easy_table,
+        "---",
+        "## Medium Problems",
+        medium_table,
+        "---",
+        "## Hard Problems",
+        hard_table,
+        "---",
+        how_to_use,
+        "---",
+        contributing,
+        "---",
+        copyright_section,
+    ]
+
+    content = "\n\n".join(sections) + "\n"
+
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"🎉 Đã tự động cập nhật README.md thành công! Tổng số bài: {total_count}")
+    print(f"🎉 README.md updated successfully! Total problems: {total_count}")
+
 
 if __name__ == "__main__":
     update_readme()
