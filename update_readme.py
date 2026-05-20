@@ -132,7 +132,7 @@ def update_readme():
         "---",
         "## 🤝 Contributing\n\nFound a better solution? Open a PR or raise an issue — all ideas welcome!",
         "---",
-        '<div align="center">\n\nMade with ☕ by [Kdz198](https://github.com/Kdz198) · Auto-updated by GitHub Actions 🤖\n\n</div>',
+        '<div align="center">\n\nMade with 🌙 by [Kdz198](https://github.com/Kdz198) · Crafted with Coffee ☕\n\n</div>',
     ]
 
     content = "\n\n".join(sections) + "\n"
