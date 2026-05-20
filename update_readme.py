@@ -1,127 +1,138 @@
 import os
 import re
+import subprocess
 
 
-def clean_problem_name(filename):
+# ─────────────────────────────────────────────
+# Helpers
+# ─────────────────────────────────────────────
+
+SPECIAL_CASES = {
+    "Buy And Sell Stock": "Best Time to Buy and Sell Stock",
+    "Index Of First Occurence": "Index of First Occurrence",
+    "Length Of Last Word": "Length of Last Word",
+    "Remove Duplicated Sorted Array": "Remove Duplicates from Sorted Array",
+    "Reverse Vowels Of A String": "Reverse Vowels Of A String",
+    "Intersection Of Two Arrays": "Intersection Of Two Arrays",
+    "Intersection Of Two Arrays I I": "Intersection Of Two Arrays II",
+    "Reverse Words In A String I I I": "Reverse Words In A String III",
+    "Maximum Product Of Three Numbers": "Maximum Product Of Three Numbers",
+    "Largest Number At Least Twice of Others": "Largest Number At Least Twice of Others",
+    "Pow Xn": "Pow(x, n)",
+    "Sqrt X": "Sqrt(x)",
+}
+
+
+def clean_problem_name(filename: str) -> str:
     name = filename.replace(".java", "")
     cleaned = re.sub(r"(?<!^)(?=[A-Z])", " ", name)
-
-    special_cases = {
-        "Buy And Sell Stock": "Best Time to Buy and Sell Stock",
-        "Index Of First Occurence": "Index of First Occurrence",
-        "Length Of Last Word": "Length of Last Word",
-        "Remove Duplicated Sorted Array": "Remove Duplicates from Sorted Array",
-        "Reverse Vowels Of A String": "Reverse Vowels Of A String",
-        "Intersection Of Two Arrays": "Intersection Of Two Arrays",
-        "Intersection Of Two Arrays I I": "Intersection Of Two Arrays II",
-        "Reverse Words In A String I I I": "Reverse Words In A String III",
-        "Maximum Product Of Three Numbers": "Maximum Product Of Three Numbers",
-        "Largest Number At Least Twice of Others": "Largest Number At Least Twice of Others",
-        "Pow Xn": "Pow(x, n)",
-        "Sqrt X": "Sqrt(x)",
-    }
-    return special_cases.get(cleaned, cleaned)
+    return SPECIAL_CASES.get(cleaned, cleaned)
 
 
-def count_java_files(folder_path):
-    if not os.path.exists(folder_path):
+def get_file_creation_date(filepath: str) -> str:
+    """Return the date (YYYY-MM-DD) the file was first committed to git."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "--follow", "--format=%as", "--diff-filter=A", "--", filepath],
+            capture_output=True, text=True, check=True
+        )
+        lines = result.stdout.strip().splitlines()
+        return lines[-1] if lines else "—"
+    except Exception:
+        return "—"
+
+
+def count_java_files(folder: str) -> int:
+    if not os.path.exists(folder):
         return 0
-    return len([f for f in os.listdir(folder_path) if f.endswith(".java")])
+    return len([f for f in os.listdir(folder) if f.endswith(".java")])
 
 
-def generate_markdown_table(folder_path):
-    if not os.path.exists(folder_path):
-        return ""
+def generate_table(folder: str) -> str:
+    if not os.path.exists(folder):
+        return "*No problems solved in this category yet.*\n"
 
-    files = sorted([f for f in os.listdir(folder_path) if f.endswith(".java")])
-
+    files = sorted([f for f in os.listdir(folder) if f.endswith(".java")])
     if not files:
         return "*No problems solved in this category yet.*\n"
 
-    rows = ["| Problem Name | Code |", "|---|---|"]
-    for file in files:
-        prob_name = clean_problem_name(file)
-        path = f"{folder_path}/{file}".replace("\\", "/")
-        rows.append(f"| {prob_name} | [{file}]({path}) |")
+    rows = [
+        "| # | Problem | Date Solved | Solution |",
+        "|:-:|---------|:-----------:|:--------:|",
+    ]
+    for i, file in enumerate(files, start=1):
+        name = clean_problem_name(file)
+        path = f"{folder}/{file}".replace("\\", "/")
+        date = get_file_creation_date(path)
+        rows.append(f"| {i} | {name} | `{date}` | [Java]({path}) |")
 
     return "\n".join(rows) + "\n"
 
 
+# ─────────────────────────────────────────────
+# README builder
+# ─────────────────────────────────────────────
+
 def update_readme():
-    easy_table  = generate_markdown_table("src/Easy")
-    medium_table = generate_markdown_table("src/Medium")
-    hard_table  = generate_markdown_table("src/Hard")
+    easy_table   = generate_table("src/Easy")
+    medium_table = generate_table("src/Medium")
+    hard_table   = generate_table("src/Hard")
 
     easy_count   = count_java_files("src/Easy")
     medium_count = count_java_files("src/Medium")
     hard_count   = count_java_files("src/Hard")
-    total_count  = easy_count + medium_count + hard_count
+    total        = easy_count + medium_count + hard_count
 
-    # Build README sections separately to avoid f-string / markdown conflicts
-    header = "# Leetcode Solutions 🏆"
-
-    intro = (
-        "Welcome to my Leetcode solutions repository! "
-        "This is where I document my journey through solving algorithmic challenges on Leetcode. "
-        "All solutions are implemented in **Java**."
-    )
+    filled = min(total // 10, 20)
+    bar    = "█" * filled + "░" * (20 - filled)
 
     stats_table = "\n".join([
-        "## 📊 Statistics",
-        "",
-        "| Difficulty | Number of Problems |",
-        "|------------|--------------------|",
-        f"| Easy       | {easy_count}       |",
-        f"| Medium     | {medium_count}     |",
-        f"| Hard       | {hard_count}       |",
-        "",
-        f"Total Problems Solved: **{total_count}**",
+        "| 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏁 Total |",
+        "|:-------:|:---------:|:-------:|:--------:|",
+        f"| {easy_count} | {medium_count} | {hard_count} | **{total}** |",
     ])
 
-    how_to_use = "\n".join([
-        "## 📌 How to Use",
-        "",
-        "1. Clone the repository:",
+    progress_block = f"```\n{bar}  {total} solved\n```"
+
+    getting_started = "\n".join([
+        "## 🚀 Getting Started",
         "",
         "```bash",
+        "# Clone the repo",
         "git clone https://github.com/Kdz198/Leetcode.git",
+        "cd Leetcode",
         "```",
         "",
-        "2. Navigate to the respective folder (`src/Easy`, `src/Medium`, `src/Hard`) "
-        "to view the solution for a specific problem.",
-        "3. Compile and run the Java files to test the solutions.",
-    ])
-
-    contributing = "\n".join([
-        "## 💡 Contributing",
+        "Navigate to `src/Easy`, `src/Medium`, or `src/Hard` and open any `.java` file.",
+        "Each file is self-contained and can be compiled with:",
         "",
-        "Contributions are welcome! "
-        "If you have a more optimal solution or find any issues, "
-        "feel free to open a pull request or an issue.",
+        "```bash",
+        "javac src/Easy/TwoSum.java",
+        "```",
     ])
-
-    copyright_section = "## 📜 Copyright\n\nCopyright © 2026 [Kdz198]."
 
     sections = [
-        header,
-        intro,
+        "# 🧩 LeetCode Solutions",
+        "> Documenting my journey through algorithmic problem-solving.\n> All solutions are written in **Java**.",
         "---",
+        "## 📊 Progress",
+        progress_block,
         stats_table,
         "---",
-        "## Easy Problems",
+        "## 🟢 Easy",
         easy_table,
         "---",
-        "## Medium Problems",
+        "## 🟡 Medium",
         medium_table,
         "---",
-        "## Hard Problems",
+        "## 🔴 Hard",
         hard_table,
         "---",
-        how_to_use,
+        getting_started,
         "---",
-        contributing,
+        "## 🤝 Contributing\n\nFound a better solution? Open a PR or raise an issue — all ideas welcome!",
         "---",
-        copyright_section,
+        '<div align="center">\n\nMade with ☕ by [Kdz198](https://github.com/Kdz198) · Auto-updated by GitHub Actions 🤖\n\n</div>',
     ]
 
     content = "\n\n".join(sections) + "\n"
@@ -129,7 +140,7 @@ def update_readme():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"🎉 README.md updated successfully! Total problems: {total_count}")
+    print(f"✅ README.md updated! Total: {total} problems ({easy_count}E / {medium_count}M / {hard_count}H)")
 
 
 if __name__ == "__main__":
