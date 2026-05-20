@@ -73,6 +73,8 @@ Total Problems Solved: **69**
 | Happy Number                             | [HappyNumber.java](src/Easy/HappyNumber.java)                                               |
 | Ransom Note                              | [RansomNote.java](src/Easy/RansomNote.java)                                                |
 | Minimum Common Value                     | [MinimumCommonValue.java](src/Easy/MinimumCommonValue.java)                                                |
+| Merge Two Sorted Lists                   | [MergeTwoSortedLists.java](src/Easy/MergeTwoSortedLists.java)                                                |
+
 
 
 
