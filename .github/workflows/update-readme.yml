@@ -10,6 +10,10 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,7 +24,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run Update Script
-        run: python update_readme.py # Chạy file script để quét thư mục
+        run: python update_readme.py
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
