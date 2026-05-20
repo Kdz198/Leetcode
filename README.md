@@ -11,9 +11,8 @@ Welcome to my Leetcode solutions repository! This is where I document my journey
 | Easy       | 52                 | 
 | Medium     | 15                 | 
 | Hard       | 2                  | 
-        
-Total Problems Solved: **69**
 
+Total Problems Solved: **69**
 ---
 
 ## Easy Problems
@@ -59,8 +58,8 @@ Total Problems Solved: **69**
 | Number of Segments in a String           | [NumberOfSegmentsInAString.java](src/Easy/NumberOfSegmentsInAString.java)                   |
 | Find All Numbers Disappeared In An Array | [FindAllNumbersDisappearedInAnArray.java](src/Easy/FindAllNumbersDisappearedInAnArray.java) |
 | Max Consecutive Ones                     | [MaxConsecutiveOnes.java](src/Easy/MaxConsecutiveOnes.java)                                 |
-| Detect Capital                           | [DetectCapital .java](src/Easy/DetectCapital.java)                                          |
-| Reverse Words In A String III            | [ReverseWordsInAStringIII .java](src/Easy/ReverseWordsInAStringIII.java)                    |
+| Detect Capital                           | [DetectCapital.java](src/Easy/DetectCapital.java)                                           |
+| Reverse Words In A String III            | [ReverseWordsInAStringIII.java](src/Easy/ReverseWordsInAStringIII.java)                     |
 | Maximum Product Of Three Numbers         | [MaximumProductOfThreeNumbers.java](src/Easy/MaximumProductOfThreeNumbers.java)             |
 | Maximum Average Subarray I               | [MaximumAverageSubarrayI.java](src/Easy/MaximumAverageSubarrayI.java)                       |
 | Set Mismatch                             | [SetMismatch.java](src/Easy/SetMismatch.java)                                               |
@@ -71,14 +70,9 @@ Total Problems Solved: **69**
 | Largest Number At Least Twice of Others  | [LargestNumberAtLeastTwiceofOthers.java](src/Easy/LargestNumberAtLeastTwiceofOthers.java)   |
 | Relative Rank                            | [RelativeRank.java](src/Easy/RelativeRank.java)                                             |
 | Happy Number                             | [HappyNumber.java](src/Easy/HappyNumber.java)                                               |
-| Ransom Note                              | [RansomNote.java](src/Easy/RansomNote.java)                                                |
-| Minimum Common Value                     | [MinimumCommonValue.java](src/Easy/MinimumCommonValue.java)                                                |
-| Merge Two Sorted Lists                   | [MergeTwoSortedLists.java](src/Easy/MergeTwoSortedLists.java)                                                |
-
-
-
-
-
+| Ransom Note                              | [RansomNote.java](src/Easy/RansomNote.java)                                                 |
+| Minimum Common Value                     | [MinimumCommonValue.java](src/Easy/MinimumCommonValue.java)                                 |
+| Merge Two Sorted Lists                   | [MergeTwoSortedLists.java](src/Easy/MergeTwoSortedLists.java)                               |
 ---
 
 ## Medium Problems
@@ -98,11 +92,10 @@ Total Problems Solved: **69**
 | Count Primes                                   | [CountPrime.java](src/Medium/CountPrime.java)                                 |
 | Ugly Number II                                 | [UglyNumberII.java](src/Medium/UglyNumberII.java)                             |
 | Find The Duplicate Number                      | [FindTheDuplicateNumber.java](src/Medium/FindTheDuplicateNumber.java)         |
-| Increasing Triplet Subsequence                 | [IncreasingTripletSubsequence.java](src/Medium/IncreasingTripletSubsequence.java)         |
-| Top K Frequent Elements                        | [TopKFrequentElements.java](src/Medium/TopKFrequentElements.java)         |
-| Sum Of Two Integer                             | [SumOfTwoInteger.java](src/Medium/SumOfTwoInteger.java)         |
-| Add Two Numbers                                | [AddTwoNumbers.java](src/Medium/AddTwoNumbers.java)         |
-
+| Increasing Triplet Subsequence                 | [IncreasingTripletSubsequence.java](src/Medium/IncreasingTripletSubsequence.java) |
+| Top K Frequent Elements                        | [TopKFrequentElements.java](src/Medium/TopKFrequentElements.java)             |
+| Sum Of Two Integer                             | [SumOfTwoInteger.java](src/Medium/SumOfTwoInteger.java)                       |
+| Add Two Numbers                                | [AddTwoNumbers.java](src/Medium/AddTwoNumbers.java)                           |
 ---
 
 ## Hard Problems
@@ -111,14 +104,13 @@ Total Problems Solved: **69**
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | First Missing Positive              | [FirstMissingPositive.java](src/Hard/FirstMissingPositive.java)                       |
 | Valid Number                        | [ValidNumber.java](src/Hard/ValidNumber.java)                                         |
-
 ---
 
 ## 📌 How to Use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kdz198/Leetcode.git
+   git clone [https://github.com/Kdz198/Leetcode.git](https://github.com/Kdz198/Leetcode.git)
    ```
 2. Navigate to the respective folder (`src/Easy`, `src/Medium`, `src/Hard`) to view the solution for a specific problem.
 3. Compile and run the Java files to test the solutions.
