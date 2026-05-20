@@ -1,138 +1,145 @@
-# Leetcode Solutions 🏆
+# 🧩 LeetCode Solutions
 
-Welcome to my Leetcode solutions repository! This is where I document my journey through solving algorithmic challenges on Leetcode. All solutions are implemented in **Java**.
-
----
-
-## 📊 Statistics
-
-| Difficulty | Number of Problems |
-|------------|--------------------|
-| Easy       | 54       |
-| Medium     | 17     |
-| Hard       | 3       |
-
-Total Problems Solved: **74**
+> Documenting my journey through algorithmic problem-solving.
+> All solutions are written in **Java**.
 
 ---
 
-## Easy Problems
+## 📊 Progress
 
-| Problem Name | Code |
-|---|---|
-| Add Digits | [AddDigits.java](src/Easy/AddDigits.java) |
-| Add Strings | [AddStrings.java](src/Easy/AddStrings.java) |
-| Best Time to Buy and Sell Stock | [BuyAndSellStock.java](src/Easy/BuyAndSellStock.java) |
-| Climbing Stair | [ClimbingStair.java](src/Easy/ClimbingStair.java) |
-| Contains Duplicate | [ContainsDuplicate.java](src/Easy/ContainsDuplicate.java) |
-| Contains Duplicate I I | [ContainsDuplicateII.java](src/Easy/ContainsDuplicateII.java) |
-| Detect Capital | [DetectCapital.java](src/Easy/DetectCapital.java) |
-| Find All Numbers Disappeared In An Array | [FindAllNumbersDisappearedInAnArray.java](src/Easy/FindAllNumbersDisappearedInAnArray.java) |
-| Find The Difference | [FindTheDifference.java](src/Easy/FindTheDifference.java) |
-| First Unique Character In A String | [FirstUniqueCharacterInAString.java](src/Easy/FirstUniqueCharacterInAString.java) |
-| Happy Number | [HappyNumber.java](src/Easy/HappyNumber.java) |
-| Index of First Occurrence | [IndexOfFirstOccurence.java](src/Easy/IndexOfFirstOccurence.java) |
-| Intersection Of Two Arrays | [IntersectionOfTwoArrays.java](src/Easy/IntersectionOfTwoArrays.java) |
-| Intersection Of Two Arrays II | [IntersectionOfTwoArraysII.java](src/Easy/IntersectionOfTwoArraysII.java) |
-| Is Subsequence | [IsSubsequence.java](src/Easy/IsSubsequence.java) |
-| Largest Number At Least Twiceof Others | [LargestNumberAtLeastTwiceofOthers.java](src/Easy/LargestNumberAtLeastTwiceofOthers.java) |
-| Length of Last Word | [LengthOfLastWord.java](src/Easy/LengthOfLastWord.java) |
-| Longest Palindrone | [LongestPalindrone.java](src/Easy/LongestPalindrone.java) |
-| Majority Number | [MajorityNumber.java](src/Easy/MajorityNumber.java) |
-| Max Consecutive Ones | [MaxConsecutiveOnes.java](src/Easy/MaxConsecutiveOnes.java) |
-| Maximum Average Subarray I | [MaximumAverageSubarrayI.java](src/Easy/MaximumAverageSubarrayI.java) |
-| Maximum Product Of Three Numbers | [MaximumProductOfThreeNumbers.java](src/Easy/MaximumProductOfThreeNumbers.java) |
-| Merge Two Sorted Lists | [MergeTwoSortedLists.java](src/Easy/MergeTwoSortedLists.java) |
-| Minimum Common Value | [MinimumCommonValue.java](src/Easy/MinimumCommonValue.java) |
-| Missing Number | [MissingNumber.java](src/Easy/MissingNumber.java) |
-| Move Zero | [MoveZero.java](src/Easy/MoveZero.java) |
-| Number Of Segments In A String | [NumberOfSegmentsInAString.java](src/Easy/NumberOfSegmentsInAString.java) |
-| Palindrone Number | [PalindroneNumber.java](src/Easy/PalindroneNumber.java) |
-| Plus One | [PlusOne.java](src/Easy/PlusOne.java) |
-| Power Of Four | [PowerOfFour.java](src/Easy/PowerOfFour.java) |
-| Power Of Three | [PowerOfThree.java](src/Easy/PowerOfThree.java) |
-| Power Of Two | [PowerOfTwo.java](src/Easy/PowerOfTwo.java) |
-| Ransom Note | [RansomNote.java](src/Easy/RansomNote.java) |
-| Relative Rank | [RelativeRank.java](src/Easy/RelativeRank.java) |
-| Remove Duplicates from Sorted Array | [RemoveDuplicatedSortedArray.java](src/Easy/RemoveDuplicatedSortedArray.java) |
-| Remove Element | [RemoveElement.java](src/Easy/RemoveElement.java) |
-| Reverse String | [ReverseString.java](src/Easy/ReverseString.java) |
-| Reverse Vowels Of A String | [ReverseVowelsOfAString.java](src/Easy/ReverseVowelsOfAString.java) |
-| Reverse Words In A String III | [ReverseWordsInAStringIII.java](src/Easy/ReverseWordsInAStringIII.java) |
-| Roman To Integer | [RomanToInteger.java](src/Easy/RomanToInteger.java) |
-| Search Insert Position | [SearchInsertPosition.java](src/Easy/SearchInsertPosition.java) |
-| Self Dividing Numbers | [SelfDividingNumbers.java](src/Easy/SelfDividingNumbers.java) |
-| Set Mismatch | [SetMismatch.java](src/Easy/SetMismatch.java) |
-| Single Number | [SingleNumber.java](src/Easy/SingleNumber.java) |
-| Smallest Letter Greater Than Target | [SmallestLetterGreaterThanTarget.java](src/Easy/SmallestLetterGreaterThanTarget.java) |
-| Sqrt(x) | [SqrtX.java](src/Easy/SqrtX.java) |
-| Third Maximum Number | [ThirdMaximumNumber.java](src/Easy/ThirdMaximumNumber.java) |
-| To Lower Case | [ToLowerCase.java](src/Easy/ToLowerCase.java) |
-| Two Sum | [TwoSum.java](src/Easy/TwoSum.java) |
-| Ugly Number | [UglyNumber.java](src/Easy/UglyNumber.java) |
-| Valid Anagram | [ValidAnagram.java](src/Easy/ValidAnagram.java) |
-| Valid Palindrome I I | [ValidPalindromeII.java](src/Easy/ValidPalindromeII.java) |
-| Valid Palindrone | [ValidPalindrone.java](src/Easy/ValidPalindrone.java) |
-| Valid Perfect Square | [ValidPerfectSquare.java](src/Easy/ValidPerfectSquare.java) |
-
-
----
-
-## Medium Problems
-
-| Problem Name | Code |
-|---|---|
-| Add Two Numbers | [AddTwoNumbers.java](src/Medium/AddTwoNumbers.java) |
-| Count Prime | [CountPrime.java](src/Medium/CountPrime.java) |
-| Divide Two Integer | [DivideTwoInteger.java](src/Medium/DivideTwoInteger.java) |
-| Find First And Last Position | [FindFirstAndLastPosition.java](src/Medium/FindFirstAndLastPosition.java) |
-| Find The Duplicate Number | [FindTheDuplicateNumber.java](src/Medium/FindTheDuplicateNumber.java) |
-| Increasing Triplet Subsequence | [IncreasingTripletSubsequence.java](src/Medium/IncreasingTripletSubsequence.java) |
-| Longest Consecutive Sequence | [LongestConsecutiveSequence.java](src/Medium/LongestConsecutiveSequence.java) |
-| Longest Substring | [LongestSubstring.java](src/Medium/LongestSubstring.java) |
-| Multiply String | [MultiplyString.java](src/Medium/MultiplyString.java) |
-| Pow(x, n) | [PowXn.java](src/Medium/PowXn.java) |
-| Reverse Integer | [ReverseInteger.java](src/Medium/ReverseInteger.java) |
-| Reverse Words In A String | [ReverseWordsInAString.java](src/Medium/ReverseWordsInAString.java) |
-| Single Number I I | [SingleNumberII.java](src/Medium/SingleNumberII.java) |
-| String To Integer | [StringToInteger.java](src/Medium/StringToInteger.java) |
-| Sum Of Two Integer | [SumOfTwoInteger.java](src/Medium/SumOfTwoInteger.java) |
-| Top K Frequent Elements | [TopKFrequentElements.java](src/Medium/TopKFrequentElements.java) |
-| Ugly Number I I | [UglyNumberII.java](src/Medium/UglyNumberII.java) |
-
-
----
-
-## Hard Problems
-
-| Problem Name | Code |
-|---|---|
-| First Missing Positive | [FirstMissingPositive.java](src/Hard/FirstMissingPositive.java) |
-| Test Git | [TestGit.java](src/Hard/TestGit.java) |
-| Valid Number | [ValidNumber.java](src/Hard/ValidNumber.java) |
-
-
----
-
-## 📌 How to Use
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Kdz198/Leetcode.git
+```
+███████░░░░░░░░░░░░░  74 solved
 ```
 
-2. Navigate to the respective folder (`src/Easy`, `src/Medium`, `src/Hard`) to view the solution for a specific problem.
-3. Compile and run the Java files to test the solutions.
+| 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏁 Total |
+|:-------:|:---------:|:-------:|:--------:|
+| 54 | 17 | 3 | **74** |
 
 ---
 
-## 💡 Contributing
+## 🟢 Easy
 
-Contributions are welcome! If you have a more optimal solution or find any issues, feel free to open a pull request or an issue.
+| # | Problem | Date Solved | Solution |
+|:-:|---------|:-----------:|:--------:|
+| 1 | Add Digits | `2026-05-21` | [Java](src/Easy/AddDigits.java) |
+| 2 | Add Strings | `2026-05-21` | [Java](src/Easy/AddStrings.java) |
+| 3 | Best Time to Buy and Sell Stock | `2026-05-21` | [Java](src/Easy/BuyAndSellStock.java) |
+| 4 | Climbing Stair | `2026-05-21` | [Java](src/Easy/ClimbingStair.java) |
+| 5 | Contains Duplicate | `2026-05-21` | [Java](src/Easy/ContainsDuplicate.java) |
+| 6 | Contains Duplicate I I | `2026-05-21` | [Java](src/Easy/ContainsDuplicateII.java) |
+| 7 | Detect Capital | `2026-05-21` | [Java](src/Easy/DetectCapital.java) |
+| 8 | Find All Numbers Disappeared In An Array | `2026-05-21` | [Java](src/Easy/FindAllNumbersDisappearedInAnArray.java) |
+| 9 | Find The Difference | `2026-05-21` | [Java](src/Easy/FindTheDifference.java) |
+| 10 | First Unique Character In A String | `2026-05-21` | [Java](src/Easy/FirstUniqueCharacterInAString.java) |
+| 11 | Happy Number | `2026-05-21` | [Java](src/Easy/HappyNumber.java) |
+| 12 | Index of First Occurrence | `2026-05-21` | [Java](src/Easy/IndexOfFirstOccurence.java) |
+| 13 | Intersection Of Two Arrays | `2026-05-21` | [Java](src/Easy/IntersectionOfTwoArrays.java) |
+| 14 | Intersection Of Two Arrays II | `2026-05-21` | [Java](src/Easy/IntersectionOfTwoArraysII.java) |
+| 15 | Is Subsequence | `2026-05-21` | [Java](src/Easy/IsSubsequence.java) |
+| 16 | Largest Number At Least Twiceof Others | `2026-05-21` | [Java](src/Easy/LargestNumberAtLeastTwiceofOthers.java) |
+| 17 | Length of Last Word | `2026-05-21` | [Java](src/Easy/LengthOfLastWord.java) |
+| 18 | Longest Palindrone | `2026-05-21` | [Java](src/Easy/LongestPalindrone.java) |
+| 19 | Majority Number | `2026-05-21` | [Java](src/Easy/MajorityNumber.java) |
+| 20 | Max Consecutive Ones | `2026-05-21` | [Java](src/Easy/MaxConsecutiveOnes.java) |
+| 21 | Maximum Average Subarray I | `2026-05-21` | [Java](src/Easy/MaximumAverageSubarrayI.java) |
+| 22 | Maximum Product Of Three Numbers | `2026-05-21` | [Java](src/Easy/MaximumProductOfThreeNumbers.java) |
+| 23 | Merge Two Sorted Lists | `2026-05-21` | [Java](src/Easy/MergeTwoSortedLists.java) |
+| 24 | Minimum Common Value | `2026-05-21` | [Java](src/Easy/MinimumCommonValue.java) |
+| 25 | Missing Number | `2026-05-21` | [Java](src/Easy/MissingNumber.java) |
+| 26 | Move Zero | `2026-05-21` | [Java](src/Easy/MoveZero.java) |
+| 27 | Number Of Segments In A String | `2026-05-21` | [Java](src/Easy/NumberOfSegmentsInAString.java) |
+| 28 | Palindrone Number | `2026-05-21` | [Java](src/Easy/PalindroneNumber.java) |
+| 29 | Plus One | `2026-05-21` | [Java](src/Easy/PlusOne.java) |
+| 30 | Power Of Four | `2026-05-21` | [Java](src/Easy/PowerOfFour.java) |
+| 31 | Power Of Three | `2026-05-21` | [Java](src/Easy/PowerOfThree.java) |
+| 32 | Power Of Two | `2026-05-21` | [Java](src/Easy/PowerOfTwo.java) |
+| 33 | Ransom Note | `2026-05-21` | [Java](src/Easy/RansomNote.java) |
+| 34 | Relative Rank | `2026-05-21` | [Java](src/Easy/RelativeRank.java) |
+| 35 | Remove Duplicates from Sorted Array | `2026-05-21` | [Java](src/Easy/RemoveDuplicatedSortedArray.java) |
+| 36 | Remove Element | `2026-05-21` | [Java](src/Easy/RemoveElement.java) |
+| 37 | Reverse String | `2026-05-21` | [Java](src/Easy/ReverseString.java) |
+| 38 | Reverse Vowels Of A String | `2026-05-21` | [Java](src/Easy/ReverseVowelsOfAString.java) |
+| 39 | Reverse Words In A String III | `2026-05-21` | [Java](src/Easy/ReverseWordsInAStringIII.java) |
+| 40 | Roman To Integer | `2026-05-21` | [Java](src/Easy/RomanToInteger.java) |
+| 41 | Search Insert Position | `2026-05-21` | [Java](src/Easy/SearchInsertPosition.java) |
+| 42 | Self Dividing Numbers | `2026-05-21` | [Java](src/Easy/SelfDividingNumbers.java) |
+| 43 | Set Mismatch | `2026-05-21` | [Java](src/Easy/SetMismatch.java) |
+| 44 | Single Number | `2026-05-21` | [Java](src/Easy/SingleNumber.java) |
+| 45 | Smallest Letter Greater Than Target | `2026-05-21` | [Java](src/Easy/SmallestLetterGreaterThanTarget.java) |
+| 46 | Sqrt(x) | `2026-05-21` | [Java](src/Easy/SqrtX.java) |
+| 47 | Third Maximum Number | `2026-05-21` | [Java](src/Easy/ThirdMaximumNumber.java) |
+| 48 | To Lower Case | `2026-05-21` | [Java](src/Easy/ToLowerCase.java) |
+| 49 | Two Sum | `2026-05-21` | [Java](src/Easy/TwoSum.java) |
+| 50 | Ugly Number | `2026-05-21` | [Java](src/Easy/UglyNumber.java) |
+| 51 | Valid Anagram | `2026-05-21` | [Java](src/Easy/ValidAnagram.java) |
+| 52 | Valid Palindrome I I | `2026-05-21` | [Java](src/Easy/ValidPalindromeII.java) |
+| 53 | Valid Palindrone | `2026-05-21` | [Java](src/Easy/ValidPalindrone.java) |
+| 54 | Valid Perfect Square | `2026-05-21` | [Java](src/Easy/ValidPerfectSquare.java) |
+
 
 ---
 
-## 📜 Copyright
+## 🟡 Medium
 
-Copyright © 2026 [Kdz198].
+| # | Problem | Date Solved | Solution |
+|:-:|---------|:-----------:|:--------:|
+| 1 | Add Two Numbers | `2026-05-21` | [Java](src/Medium/AddTwoNumbers.java) |
+| 2 | Count Prime | `2026-05-21` | [Java](src/Medium/CountPrime.java) |
+| 3 | Divide Two Integer | `2026-05-21` | [Java](src/Medium/DivideTwoInteger.java) |
+| 4 | Find First And Last Position | `2026-05-21` | [Java](src/Medium/FindFirstAndLastPosition.java) |
+| 5 | Find The Duplicate Number | `2026-05-21` | [Java](src/Medium/FindTheDuplicateNumber.java) |
+| 6 | Increasing Triplet Subsequence | `2026-05-21` | [Java](src/Medium/IncreasingTripletSubsequence.java) |
+| 7 | Longest Consecutive Sequence | `2026-05-21` | [Java](src/Medium/LongestConsecutiveSequence.java) |
+| 8 | Longest Substring | `2026-05-21` | [Java](src/Medium/LongestSubstring.java) |
+| 9 | Multiply String | `2026-05-21` | [Java](src/Medium/MultiplyString.java) |
+| 10 | Pow(x, n) | `2026-05-21` | [Java](src/Medium/PowXn.java) |
+| 11 | Reverse Integer | `2026-05-21` | [Java](src/Medium/ReverseInteger.java) |
+| 12 | Reverse Words In A String | `2026-05-21` | [Java](src/Medium/ReverseWordsInAString.java) |
+| 13 | Single Number I I | `2026-05-21` | [Java](src/Medium/SingleNumberII.java) |
+| 14 | String To Integer | `2026-05-21` | [Java](src/Medium/StringToInteger.java) |
+| 15 | Sum Of Two Integer | `2026-05-21` | [Java](src/Medium/SumOfTwoInteger.java) |
+| 16 | Top K Frequent Elements | `2026-05-21` | [Java](src/Medium/TopKFrequentElements.java) |
+| 17 | Ugly Number I I | `2026-05-21` | [Java](src/Medium/UglyNumberII.java) |
+
+
+---
+
+## 🔴 Hard
+
+| # | Problem | Date Solved | Solution |
+|:-:|---------|:-----------:|:--------:|
+| 1 | First Missing Positive | `2026-05-21` | [Java](src/Hard/FirstMissingPositive.java) |
+| 2 | Test Git | `2026-05-21` | [Java](src/Hard/TestGit.java) |
+| 3 | Valid Number | `2026-05-21` | [Java](src/Hard/ValidNumber.java) |
+
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Kdz198/Leetcode.git
+cd Leetcode
+```
+
+Navigate to `src/Easy`, `src/Medium`, or `src/Hard` and open any `.java` file.
+Each file is self-contained and can be compiled with:
+
+```bash
+javac src/Easy/TwoSum.java
+```
+
+---
+
+## 🤝 Contributing
+
+Found a better solution? Open a PR or raise an issue — all ideas welcome!
+
+---
+
+<div align="center">
+
+Made with ☕ by [Kdz198](https://github.com/Kdz198) · Auto-updated by GitHub Actions 🤖
+
+</div>
