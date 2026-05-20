@@ -8,12 +8,12 @@
 ## 📊 Progress
 
 ```
-███████░░░░░░░░░░░░░  74 solved
+███████░░░░░░░░░░░░░  73 solved
 ```
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏁 Total |
 |:-------:|:---------:|:-------:|:--------:|
-| 54 | 17 | 3 | **74** |
+| 54 | 17 | 2 | **73** |
 
 ---
 
@@ -109,8 +109,7 @@
 | # | Problem | Date Solved | Solution |
 |:-:|---------|:-----------:|:--------:|
 | 1 | First Missing Positive | `2025-04-16` | [Java](src/Hard/FirstMissingPositive.java) |
-| 2 | Test Git | `2026-05-21` | [Java](src/Hard/TestGit.java) |
-| 3 | Valid Number | `2025-04-16` | [Java](src/Hard/ValidNumber.java) |
+| 2 | Valid Number | `2025-04-16` | [Java](src/Hard/ValidNumber.java) |
 
 
 ---
